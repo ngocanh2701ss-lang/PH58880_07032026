@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class BaiHat {
-
     private String ma;
     private String ten;
     private String tenCaSi;
