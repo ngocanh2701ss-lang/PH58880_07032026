@@ -31,7 +31,7 @@ public class TimKiemTest {
         WebElement btnSearch = driver.findElement(By.id("search_flights"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", btnSearch);
         Thread.sleep(5000);
-        driver.findElement(By.id("search_flights")).click();
+       // driver.findElement(By.id("search_flights")).click();
         Thread.sleep(8000);
         System.out.println("Tim kiem thanh cong");
     }

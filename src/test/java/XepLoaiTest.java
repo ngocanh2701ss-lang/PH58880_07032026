@@ -60,4 +60,8 @@ public class XepLoaiTest {
         Assertions.assertThrows(IllegalArgumentException.class, () -> xepLoai.xepLoai(-1));
     }
 }
+/**git add .
 
+ git commit -m "Anh fix logic test de lay tich xanh"
+
+ git push origin main*/
